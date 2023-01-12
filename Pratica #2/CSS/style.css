@@ -1,0 +1,65 @@
+.contenedor{
+    padding: 150px;
+    background-color: white;
+}
+
+.principal{
+    display: inline-block;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.imagen{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    width: 360px;
+    height: 340px;
+}
+
+.logo{
+    border-radius: 100px;
+    position: absolute;
+    left: 330px;
+    top: 340px;
+    width: 70px;
+    height: 65px;
+}
+
+.articulo{
+    font-family: sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 310px;
+    text-align: center;
+}
+
+.dato-1{
+    margin-bottom: 5px;
+}
+
+.dato-2{
+    margin-top: 5px;
+}
+
+.redes-sociales{
+    background-color: gray;
+    border-color: gray;
+    border-radius: 10px;
+    height: 30px;
+    width: 120px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}

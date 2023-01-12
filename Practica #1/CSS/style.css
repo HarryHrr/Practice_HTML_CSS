@@ -1,39 +1,38 @@
-.cuerpo{
-    width: 457px;
-    height: 518px;
-    padding-left: 0px;
-    border: 3px solid #000000;
-    border-radius: 5px;
-    margin: 2px;
-}
 
 .primario{
+    margin: 2px;
     display: inline-block;
     padding-left: 0px;
-    background-color: #24F37F ;
+    width: 300px;
+    height: 405px;
+    padding-left: 0px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    background-color: white ;
 
 }
 
 .img{
-    margin-top: 3px;
-    padding-left: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
     width: auto;
     height: auto;
 }
 
 .imagen {
-    width: 420px;
-    height: 300px;
+    width: 285px;
+    height: 200px;
     border: 2px solid #000000 ;
-    border-radius: 10%;
+    border-radius: 15px;
 }
 
 .etiquetas{
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 a{
-    background: #ffffff; 
+    background: gray; 
     color: #000000;
     font-family: sans-serif;
     text-align: center;
@@ -41,30 +40,22 @@ a{
 }
 
 .etiquetas a:hover{
-    background-color: #053183;
+    background-color: white;
 
 }
 
 .etiqueta_1{
+    display: inline-block;
+    height: 25px;
+    width: 70px;
     margin: 2px;
-    padding: 2px;
-    border: thin solid #000000;
-    border-radius: 4px;
+    padding-top: 6px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    border: medium;
+    border-radius: 8px;
     
-}
-
-.etiqueta_2{
-    margin: 2px;
-    padding: 2px;
-    border: thin solid #000000;
-    border-radius: 4px;
-}
-
-.etiqueta_3{
-    margin: 2px;
-    padding: 2px;
-    border: thin solid #000000;
-    border-radius: 4px;
 }
 
 .articulo{
@@ -82,20 +73,29 @@ a{
 
 p{
     font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 10px;
 }
 
-.botones{
-    padding-left: 150px;
-    margin: 10px;
-}
-
 .boton_1{
-    border-radius: 5px;
+    font-family:sans-serif;
+    height: 45px;
+    width: 140px;
+    margin-left: 1px;
+    color:#053183;
+    background-color: white;
+    border-radius: 15px;
     border-color: #053183;
 }
 
 .boton_2{
-    border-radius: 5px;
+    font-family: sans-serif;
+    height: 45px;
+    width: 140px;
+    margin-left: 10px;
+    color: white;
+    background-color: #053183;
+    border-radius: 15px;
     border-color: #053183;
 }
