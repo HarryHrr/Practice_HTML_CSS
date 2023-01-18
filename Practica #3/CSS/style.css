@@ -1,100 +1,167 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 .contenedor_principal{
     background-image:url(../IMG/fondo.jpg);
     background-size:cover;
-    padding: 30px;
-    margin: 0;
+    padding: 2em;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
 }
 
 .contenedor_secundario{
-
-    width: 100%;
+    background-color: #ffffff;
+    width: 70%;
+    border: medium solid #ffffff;
+    border-radius: 0.5em;
+    padding-top: 3em;
+    padding-right: 1.5em;
+    padding-bottom: 3em;
+    padding-left: 1.5em;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* @media screen and (max-width: 750px) {
-    div{
-        width: 100%;
-        background-color: aqua;
-    }
-} */
+.contenedor_secundario .contenido{
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenedor_secundario .informacion{
+    padding-left: 3em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
 
 .titulo{
+    width: 100%;
     text-align: right;
-    font-family: sans-serif;
-    font-size: 2.5em;
-}
-
-h2{
-    display: inline;
 }
 
 
-
-.informacion{
-   width: 37vw;
-   height: 575px;
-   border: thin solid rgb(255, 255, 255);
-   border-top-left-radius: 5px;
-   font-family: sans-serif;
-   padding-left: 50px;
-   display: inline-block;
-   background-color: rgb(255, 255, 255);
+.informacion .seccion_1>h2,img{
+    display: inline-block;
+    vertical-align: top;
 }
 
-.icono_3{
-    margin-left: 10px;
-    width: 30px;
+.informacion .seccion_2>h2,img{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.informacion .seccion_3>h2,img{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .parrafo_1{
-    margin-left: 35px;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 95%;
     font-size: small;
-    color: gray;
-    width: 400px;
-
+    color: #666;
 }
-
 .parrafo_2{
-    margin-left: 35px;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 95%;
     font-size: small;
-    color: gray;
-    width: 400px;
+    color: #666;
 }
-
 .parrafo_3{
-    margin-left: 45px;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    width: 95%;
     font-size: small;
-    color: gray;
-    width: 400px;
-
+    color: #666;
 }
 
-.contenedor_registro{
-
-    width: 30vw;
-    height: 575px;
-    background-color: rgb(255, 255, 255);
-    border: thin solid rgb(255, 255, 255);
-    border-top-right-radius: 5px;
-
+.contenedor_secundario .contenido .ingreso{
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
-
-.descripcion_registro{
-    padding-left: 15px;
+.ingresar_ex{
     text-align: center;
+    width: 10em;
+    height: 7em;
+    margin-left: 1em;
 }
 
-.contenedor_registro_2 input{
-    display: inline-block;
-    width: 14em;
-    margin-bottom: 1.8em;
-    border-radius: 5px;
-    font-size: 25px;
-    
+.registro_facebook{
+    padding: 0.5em;
+    width: 3em;
+}
+
+.registro_google{
+    padding: 0.5em;
+    width: 3em;
+}
+
+.ingresar_local{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+.icono_1,
+.icono_2,
+.icono_3{
+    display: inline;
+    text-align: justify;
+    align-self: center;
+}
+
+.nombre_1{
+    margin-bottom: 2em;
+    height: 2.5em;
+    border:thin solid #666;
+    border-radius: 0.3em;
+}
+
+.email{
+    margin-bottom: 2em;
+    height: 2.5em;
+    width: 13em;
+    border:thin solid #666;
+    border-radius: 0.3em;
+}
+
+.password{
+    margin-bottom: 2em;
+    height: 2.5em;
+    border:thin solid #666;
+    border-radius: 0.3em;
 }
 
 #boton{
@@ -104,27 +171,18 @@ h2{
     border-radius: 20px;
     margin-left: 5em;
     font-size: medium;
-    width: 100;
-}
-
-.registro{
     text-align: center;
-    font-family: sans-serif;
+    width: 40% ;
 }
 
-.registro img{
-    padding-top: 110px;
-    /* padding-left: 20px; */
+/* @media screen (max-width: 953px) {
+    
+    .contenedor_secundario {
+        width: 80%;
+        padding-top: 3em;
+        padding-right: 1em;
+        padding-bottom: 3em;
+        padding-left: 1em;
+    }
 }
-
-.registro_facebook{
-    /* margin-left: 25%; */
-    width: 45px;
-    height: 45px;
-
-}
-
-.registro_google{
-    width: 45px;
-    height: 45px;
-}
+ */
